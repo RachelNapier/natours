@@ -42,14 +42,25 @@ body {
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 }
 
-.logo_box {
+.logo_box,
+.text_box {
   position: absolute;
+}
+
+.logo_box {
   top: 40px;
   left: 40px;
 }
 
 .logo {
   height: 35px;
+}
+
+.text_box {
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .heading_primary {
