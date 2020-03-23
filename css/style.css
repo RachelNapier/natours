@@ -51,3 +51,25 @@ body {
 .logo {
   height: 35px;
 }
+
+.heading_primary {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.heading_primary_main,
+.heading_primary_sub {
+  display: block;
+}
+
+.heading_primary_main {
+  letter-spacing: 25px;
+  font-size: 60px;
+  font-weight: 400;
+}
+
+.heading_primary_sub {
+  letter-spacing: 15px;
+  font-size: 24px;
+  font-weight: 700;
+}
