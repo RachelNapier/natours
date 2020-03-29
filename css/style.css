@@ -84,14 +84,14 @@ body {
   letter-spacing: 25px;
   font-size: 60px;
   font-weight: 400;
-  animation: moveInLeft 1s ease-out;
+  animation: moveInLeft 1s ease-in;
 }
 
 .heading_primary_sub {
   letter-spacing: 15px;
   font-size: 24px;
   font-weight: 700;
-  animation: moveInRight 1s ease-out;
+  animation: moveInRight 1s ease-in;
 }
 
 @keyframes moveInLeft {
@@ -122,6 +122,7 @@ body {
   }
 }
 
+/* BUTTON ANIMATION STYLES */
 .btn:link,
 .btn:visited {
   text-decoration: none;
@@ -168,6 +169,24 @@ body {
 }
 
 .btn:hover::after {
-  transform: scale(1.5);
+  transform: scaleX(1.4) scaleY(1.6);
   opacity: 0;
 }
+
+.btn-animated {
+  animation: moveInButton 0.5s ease-out 0.75s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes moveInButton {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+/* END */
