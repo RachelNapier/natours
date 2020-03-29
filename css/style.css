@@ -65,8 +65,14 @@ body {
 
 .heading_primary {
   color: #fff;
-  text-transform: uppercase;
   backface-visibility: hidden;
+  margin-bottom: 24px;
+}
+
+.heading_primary,
+.btn:link,
+.btn:visited {
+  text-transform: uppercase;
 }
 
 .heading_primary_main,
@@ -114,3 +120,16 @@ body {
     opacity: 1;
     transform: translate(0);
   }
+}
+
+.btn:link,
+.btn:visited {
+  text-decoration: none;
+  padding: 15px 40px;
+  display: inline-block;
+}
+
+.btn-white {
+  background-color: #fff;
+  color: #777;
+}
