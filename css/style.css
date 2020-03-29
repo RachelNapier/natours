@@ -66,7 +66,7 @@ body {
 .heading_primary {
   color: #fff;
   backface-visibility: hidden;
-  margin-bottom: 24px;
+  margin-bottom: 32px;
 }
 
 .heading_primary,
@@ -127,9 +127,19 @@ body {
   text-decoration: none;
   padding: 15px 40px;
   display: inline-block;
+  border-radius: 100px;
+  transition: all .2s;
 }
 
 .btn-white {
   background-color: #fff;
   color: #777;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+}
+
+.btn:active {
+  transform: translateY(-1px);
 }
