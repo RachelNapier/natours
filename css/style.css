@@ -21,6 +21,10 @@ html {
   font-size: 62.5%;
 }
 
+html {
+  font-size: 10px;
+}
+
 body {
   padding: 3rem;
   font-family: "lato", sans-serif;
@@ -49,52 +53,52 @@ body {
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 }
 
-.logo_box,
-.text_box {
+.header__logo-box,
+.header__text-box {
   position: absolute;
 }
 
-.logo_box {
+.header__logo-box {
   top: 4rem;
   left: 4rem;
 }
 
-.logo {
+.header__logo {
   height: 3.5rem;
 }
 
-.text_box {
+.header__text-box {
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
 }
 
-.heading_primary {
+.heading-primary {
   color: #fff;
   backface-visibility: hidden;
   margin-bottom: 3.2rem;
 }
 
-.heading_primary,
+.heading-primary,
 .btn:link,
 .btn:visited {
   text-transform: uppercase;
 }
 
-.heading_primary_main,
-.heading_primary_sub {
+.heading-primary--main,
+.heading-primary--sub {
   display: block;
 }
 
-.heading_primary_main {
+.heading-primary--main {
   letter-spacing: 2.5rem;
   font-size: 6rem;
   font-weight: 400;
   animation: moveInLeft 1s ease-in;
 }
 
-.heading_primary_sub {
+.heading-primary--sub {
   letter-spacing: 1.5rem;
   font-size: 2.4rem;
   font-weight: 700;
@@ -146,12 +150,12 @@ body {
   border-radius: 10rem;
 }
 
-.btn-white {
+.btn--white {
   color: #777;
 }
 
-.btn-white,
-.btn-white::after {
+.btn--white,
+.btn--white::after {
   background-color: #fff;
 }
 
@@ -181,7 +185,7 @@ body {
   opacity: 0;
 }
 
-.btn-animated {
+.btn--animated {
   animation: moveInButton 0.5s ease-out 0.75s;
   animation-fill-mode: backwards;
 }
