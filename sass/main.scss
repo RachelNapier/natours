@@ -1,16 +1,8 @@
-<<<<<<< HEAD
-/*
-COLORS:
-Light green: #7ed56f
-Medium green: #55c57a
-Dark green: #28b485
-*/
-=======
->>>>>>> header
+$color-primary: #55c57a; // Green
+$color-primary-light: #7ed56f; // Light green
+$color-primary-dark: #28b485; // Dark green
 
-$color-primary: #55c57a;
-$color-primary-light: #7ed56f;
-$color-primary-dark: #28b485;
+$color-gray-dark: #777; // Dark Gray
 
 /* =====================================
             GLOBAL STYLES
@@ -38,25 +30,20 @@ body {
   font-weight: 400;
   /* font-size: 16px; */
   line-height: 1.7;
-  color: #777;
+  color: $color-gray-dark;
   box-sizing: border-box;
 }
 
 /* =====================================
                HEADER STYLES
-      ===================================== */
+   ===================================== */
 
 .header {
   height: 95vh;
   background-image: linear-gradient(
       to left bottom,
-<<<<<<< HEAD
-      rgba(126, 213, 111, 0.7),
-      rgba(40, 180, 133, 0.7)
-=======
       rgba($color-primary-light, 0.7),
       rgba($color-primary-dark, 0.7)
->>>>>>> header
     ),
     url(../images/hero.jpg);
   background-size: cover;
