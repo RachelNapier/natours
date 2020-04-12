@@ -3,6 +3,7 @@ $color-primary-light: #7ed56f; // Light green
 $color-primary-dark: #28b485; // Dark green
 
 $color-gray-dark: #777; // Dark Gray
+$color-white: #fff; // White
 
 /* =====================================
             GLOBAL STYLES
@@ -150,12 +151,12 @@ body {
 }
 
 .btn--white {
-  color: #777;
+  color: $color-gray-dark;
 }
 
 .btn--white,
 .btn--white::after {
-  background-color: #fff;
+  background-color: $color-white;
 }
 
 .btn:hover {
