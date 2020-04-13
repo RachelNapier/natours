@@ -33,28 +33,3 @@
   }
 }
 
-.heading-primary {
-  color: #fff;
-  backface-visibility: hidden;
-  margin-bottom: 3.2rem;
-  text-transform: uppercase;
-
-  &--main {
-    letter-spacing: 2.5rem;
-    font-size: 6rem;
-    font-weight: 400;
-    animation: moveInLeft 1s ease-in;
-  }
-
-  &--sub {
-    letter-spacing: 1.5rem;
-    font-size: 2.4rem;
-    font-weight: 700;
-    animation: moveInRight 1s ease-in;
-  }
-
-  &--main,
-  &--sub {
-    display: block;
-  }
-}
